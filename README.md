@@ -13,6 +13,7 @@ Candidate factors:
 * number of performers on stage
 * color of costume
 * repeat appearance of performer at Eurovision
+* something about the actual songs?  a la David-Lee Meredith?
 
 # Background
 The Eurovision Song Contest has been held annually for more than 60 years.  It is an internationally televised songwriting competition, organised by the European Broadcasting Union and featuring participants chosen by EBU member broadcasters representing their countries from across Europe and beyond.  (https://eurovision.tv/about/how-it-works)
