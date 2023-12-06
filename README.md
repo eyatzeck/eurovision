@@ -1,6 +1,6 @@
 # Eurovision
 
-Data around how to win Eurovision
+How to win Eurovision
 
 <img src="image.png" alt="drawing" width="50%"/>
 
