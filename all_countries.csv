@@ -1,53 +1,53 @@
-﻿Code,Name
-AL,Albania
-AD,Andorra
-AM,Armenia
-AU,Australia
-AT,Austria
-AZ,Azerbaijan
-BY,Belarus
-BE,Belgium
-BA,Bosnia & Herzegovina
-BG,Bulgaria
-HR,Croatia
-CY,Cyprus
-CZ,Czechia
-DK,Denmark
-EE,Estonia
-FI,Finland
-FR,France
-GE,Georgia
-DE,Germany
-GR,Greece
-HU,Hungary
-IS,Iceland
-IE,Ireland
-IL,Israel
-IT,Italy
-LV,Latvia
-LT,Lithuania
-LU,Luxembourg
-MT,Malta
-MA,Marocco
-MD,Moldova
-MC,Monaco
-ME,Montenegro
-NL,Netherlands
-MK,North Macedonia
-NO,Norway
-PL,Poland
-PT,Portugal
-RO,Romania
-RU,Russia
-SM,San Marino
-RS,Serbia
-CS,Serbia & Montenegro
-SK,Slovakia
-SI,Slovenia
-ES,Spain
-SE,Sweden
-CH,Switzerland
-TR,Turkey
-UA,Ukraine
-GB,United Kingdom
-YU,Yugoslavia
+﻿Code,Name,WarsawPact,USSR,Balkans,European Union,Nordic,Baltic,Iberia,FormerYugoslavia
+AL,Albania,1,,1,,,,,
+AD,Andorra,,,,,,,1,
+AM,Armenia,,1,,,,,,
+AU,Australia,,,,,,,,
+AT,Austria,,,,1,,,,
+AZ,Azerbaijan,,1,,,,,,
+BY,Belarus,1,1,,,,,,
+BE,Belgium,,,,1,,,,
+BA,Bosnia & Herzegovina,,,1,,,,,1
+BG,Bulgaria,1,,1,1,,,,
+HR,Croatia,,,1,1,,,,1
+CY,Cyprus,,,,1,,,,
+CZ,Czechia,1,,,1,,,,
+DK,Denmark,,,,1,1,,,
+EE,Estonia,,1,,1,,1,,
+FI,Finland,,,,1,1,,,
+FR,France,,,,1,,,,
+GE,Georgia,,1,,,,,,
+DE,Germany,,,,1,,,,
+GR,Greece,,,1,1,,,,
+HU,Hungary,1,,,1,,,,
+IS,Iceland,,,,,1,,,
+IE,Ireland,,,,1,,,,
+IL,Israel,,,,,,,,
+IT,Italy,,,,1,,,,
+LV,Latvia,,1,,1,1,,,
+LT,Lithuania,,1,,1,1,,,
+LU,Luxembourg,,,,1,,,,
+MT,Malta,,,,1,,,,
+MA,Marocco,,,,,,,,
+MD,Moldova,,1,,,,,,
+MC,Monaco,,,,,,,,
+ME,Montenegro,,,1,,,,,1
+NL,Netherlands,,,,1,,,,
+MK,North Macedonia,,,1,,,,,1
+NO,Norway,,,,,1,,,
+PL,Poland,1,,,1,,,,
+PT,Portugal,,,,1,,,1,
+RO,Romania,1,,,1,,,,
+RU,Russia,1,1,,,,,,
+SM,San Marino,,,,,,,,
+RS,Serbia,,,1,,,,,
+CS,Serbia & Montenegro,,,,,,,,1
+SK,Slovakia,,,,1,,,,
+SI,Slovenia,,,,1,,,,1
+ES,Spain,,,,1,,,1,
+SE,Sweden,,,,1,1,,,
+CH,Switzerland,,,,,,,,
+TR,Turkey,,,1,,,,,
+UA,Ukraine,1,1,,,,,,
+GB,United Kingdom,,,,,,,,
+YU,Yugoslavia,,,,,,,,

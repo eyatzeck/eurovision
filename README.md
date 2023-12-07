@@ -63,6 +63,8 @@ For the finals, the rules are:
 *At the end of the Grand Final, the song that has received the most points wins the iconic trophy, and is performed once more. (Plus there are some tie-breaking rules)*
 
 # Cool resources
+Article about affinity voting from the BBC:  https://www.bbc.com/future/article/20230512-eurovision-why-some-countries-vote-for-each-other
+
 Awesome Max Levites Tableau visualization:  https://public.tableau.com/app/profile/max.levites/viz/EveryEurovisionResultEver2021/TheUltimateEurovisionGuide2021
 
 Reuters site:  https://www.reuters.com/graphics/MUSIC-EUROVISION/dwpkdykkzvm/
