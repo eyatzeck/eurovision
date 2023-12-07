@@ -2,7 +2,7 @@
 
 How to win Eurovision
 
-<img src="image.png" alt="drawing" width="50%"/>
+<img src="image.png" alt="drawing" width="60%"/>
 
 # Business Problem 
 If you are a broadcaster whose country participates in the Eurovision contest, it will be helpful to know factors that contribute to your country winning or not, some under your control, some not.  This analysis looks for those factors in Eurovision final results from 2013 to 2023.
