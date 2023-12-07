@@ -7,29 +7,48 @@ How to win Eurovision
 # Business Problem 
 If you are a broadcaster whose country participates in the Eurovision contest, it will be helpful to know factors that contribute to your country winning or not, some under your control, some not.  This analysis looks for those factors in Eurovision final results from 2013 to 2023.
 
-Here are some factors which have been posited as influencing who wins:
+This analysis looks at two possible factors:
 * order of performance
 * geographical bloc voting
+
+Other questions that could have been answered with more data and more time might include:
 * number of performers on stage
 * color of costume
 * repeat appearance of performer at Eurovision
-* something about the actual songs?  a la David-Lee Meredith?
+* something about the actual songs!
 
-So the question is:  what factors are important?
+So the question is:  what role do these factors play in the EV final results?
 
 # Data Methods 
-List of various Eurovision data sets is available here:  https://escincontext.com/resources/data/
-
 The definitive Eurovision data set is available here:  https://eschome.net/index.html
 
-Challenge 1 is determining what the final data set should be, and therefore what the supporting data sets should be from the various sources.
+The site is designed to let the user request specific slices of data, which are returned in the form of an html page that shows the specified data in table form.  
 
-Challenge 2 is actually assembling the supporting data sets
-* Scraping challenge:  you have to interact with the screen to get it to bring up the result screen, and that screen always has the same name.
-* Approach 1:  download with cut and paste to excel, then manually massage the excel data to make it analysis friendly.  See the "2023_Finals*" files for what that looks like.
-* Approach 2:  automate scraping and parsing.
+The main ETL pipeline was comprised of python with pandas and matplotlib, along with Tableau:
 
-Challenge 3 will be cleaning and joining disparate sets, as that becomes necessary.
+1. use the Google Chrome "inspect" functionality to determine what POST commands to issue, to cause the eschome data to be visualized for scraping
+
+2. using the python pandas .get_html() function, scrape the data from the html pages into useful dataframes 
+
+3. save dataframe data in csv files for reuse to avoid re-scraping unnecessarily
+
+4. build visualizations in python using built matplotlib to check various questions under the umbrella of "does order matter" and "do countries vote in blocs"
+
+5. present the most important findings in a Tableau story which is available on Tableau public, and is also exported to PDF and available here for review.
+
+Data dimensions about the participant countries were captured and massaged in an excel spreadsheet, from the following sources:
+* Big Five countries:  https://eurovision.tv/
+* Warsaw Pact countries:  https://en.wikipedia.org/wiki/Warsaw_Pact
+* Countries belonging to the former USSR:  https://en.wikipedia.org/wiki/Republics_of_the_Soviet_Union
+* Balkan countries:  https://en.wikipedia.org/wiki/Balkans
+* Members of the European Union:  https://european-union.europa.eu/easy-read_en
+* Nordic countries:  https://en.wikipedia.org/wiki/Nordic_countries
+* Baltic countries:  https://en.wikipedia.org/wiki/Baltic_states
+* Iberia:  https://en.wikipedia.org/wiki/Iberian_Peninsula
+
+Data cleaning challenges included:
+* Missing data, particularly for the case where some countries never actually voted for other countries -- required special handling in the web scraping code
+* Missing semi-finals data for years prior to 2004.  This was handled by restricting the current inquiry to finals data only, but will be a limitation for further study which looks at semi-final voting.
 
 # Results 
 
