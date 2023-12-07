@@ -5,9 +5,9 @@ How to win Eurovision
 <img src="image.png" alt="drawing" width="60%"/>
 
 # Business Problem 
-If you are a broadcaster whose country participates in the Eurovision contest, it will be helpful to know factors that contribute to your country winning or not, some under your control, some not.  This analysis looks for those factors in Eurovision final results from 2013 to 2023.
+If you are a broadcaster whose country participates in the Eurovision contest, it will be helpful to know factors that contribute to your country winning or not, some under your control, some not.  More practically, anyone who watches Eurovision may wonder about these factors, and this presentation gives you the ability to talk knowledgeably about what the data actually shows.
 
-This analysis looks at two possible factors:
+This analysis looks at two possible factors in Eurovision voting over the years:
 * order of performance
 * geographical bloc voting
 
@@ -46,9 +46,15 @@ Data dimensions about the participant countries were captured and massaged in an
 * Baltic countries:  https://en.wikipedia.org/wiki/Baltic_states
 * Iberia:  https://en.wikipedia.org/wiki/Iberian_Peninsula
 
-Data cleaning challenges included:
+__Data cleaning challenges included:__
 * Missing data, particularly for the case where some countries never actually voted for other countries -- required special handling in the web scraping code
 * Missing semi-finals data for years prior to 2004.  This was handled by restricting the current inquiry to finals data only, but will be a limitation for further study which looks at semi-final voting.
+
+__Data problems glossed over:__
+Since 1956, countries have come and gone, and also changed name.  The eschome site shows a point in time view of the whole history, using 2023 country names.  This means that results for separate East and West Germany are not clearly represented.
+
+Some events in time also should be kept in mind:
+* The Big Five concept only started in 2000, and was called the Big Four, because it didn't include Italy, which joined in 2011 (https://eurosong-contest.fandom.com/wiki/Big_Five)
 
 # Results 
 
