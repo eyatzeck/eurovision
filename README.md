@@ -20,7 +20,7 @@ Other questions that could have been answered with more data and more time might
 So the question is:  what role do these factors play in the EV final results?
 
 # Data Methods 
-The definitive Eurovision data set is available here:  https://eschome.net/index.html
+The definitive publically available Eurovision data set is available here:  https://eschome.net/index.html
 
 The site is designed to let the user request specific slices of data, which are returned in the form of an html page that shows the specified data in table form.  
 
